@@ -1,5 +1,5 @@
 
-# Desafio 05 - Bootcamp: Jogo do Dinossauro 🚀
+# Desafio Bootcamp: Jogo do Dinossauro 🚀
 
 Projeto de Jogo do Dinossauro em 01 de maio de 2022, pela [Digital Innovation One](https://digitalinnovation.one/).
 
