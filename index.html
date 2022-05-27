@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Jogo do Dinossauro ::</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div id="mensagem">
+    <h1 id="msgGameOver" class="game-over"></h1>
+  </div>
+
+  <div class="comandos" id="comandos">
+    <button class="btn btn-comando" id="btn-iniciar-jogo" onclick="start();">Iniciar o jogo!</butt>
+    <button class="btn btn-comando" id="btn-novo-jogo" style="display: none;" onclick="novoJogo();">Iniciar nova rodada!</butt>
+  </div>
+
+  <div class="tela" id="tela" >
+    <div class="background" id="backgroud">
+      <div class="dino" id="dino"></div>
+    </div>
+  </div>
+
+
+  <!-- Sons do jogo !-->
+  <audio src="assets/sons/gameover.mp3" preload="auto" id="final"></audio>
+  <audio src="assets/sons/jogada.mp3" preload="auto" id="jogada"></audio>
+  <audio src="assets/sons/musica_fundo.mp3" preload="auto" id="musica_fundo" autoplay loop></audio>
+
+  <!-- JS do jogo !-->
+  <script type="text/javascript" src="assets/js/script.js"></script>  
+</body>
+</html>
